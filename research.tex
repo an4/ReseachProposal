@@ -28,11 +28,14 @@ a six-page (maximum) Case for Support: an account of the motivation for the work
 \subsection*{Background}
 Side-Channel Attacks (SCA) are an important class of cryptanalytic techniques which target unintentional information leakage in order to disclose private data. In general, Side-Channel attacks monitor a device performing an interesting operation and try to find a correlation between the side-channel information and the internal state of the processing device which is related to the secret parameters involved in the computation. Side-channel information can be obtained by monitoring variations in the execution time (\textit{Timing Attacks}), the power consumption (\textit{Power Analysis}), the electro-magnetic emission (\textit{Electro-magnetic Analysis - EMA}), or the state of the cache memory (\textit{Cache Attacks}) \cite{standaert2010introduction}. The goal of an attacker in side-channel attacks is to either recover the secret parameters involved in the computation by targeting faults in the implementation of some cryptographic algorithm, or disclose private information about a user, such as location or browsing history. Side-channel exploit vulnerabilities in a specific implementation rather than targeting an abstract algorithm, making them less generic but more powerful \cite{standaert2010introduction}.
 
-The expansion of the Internet determined browser vendors to add more and more features to their software in order to offer a richer, dynamic and more interactive web pages. The evolution of browser software not only improved the overall user experience but also opened the way for a new category of side-channel attacks known as browser attacks.
+The expansion of the Internet determined browser vendors to add more and more features to their software in order to offer a richer, dynamic and more interactive web pages. The evolution of browser software not only improved the overall user experience but also opened the way for a new category of side-channel attacks known as browser attacks. These types of attacks target vulnerabilities in the browser software. Browser attack fall into two categories: traditional timing attacks which measure the time it takes the server to respond, and cache timing attacks which measure how long it takes to retrieve a resource from the browser's cache memory.
 
-%introduce browser attacks
+Browser attacks are a very powerful category of side-channel attacks, which require minimal set up and affect a wide range of users. In general, these types of attacks require a user to navigate to an untrusted website, which contains attacker-controlled content. The web page has a background script which collects information about the victim which can be used by the attacker to infer a user's location, browsing history, or even current browsing activity.
+
+% user is unaware and high profile websites are known to have used it for targeting advertisments, health insurance example
+
+
 % famous browser attacks
-% two types - cache and pure timing
 % minimal set up, typical attack - navigate to an unstrusted web page with attacker-controleld content
 
 
