@@ -1,48 +1,46 @@
 This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: research.aux
-I found no \citation commands---while reading file research.aux
-I found no \bibdata command---while reading file research.aux
-I found no \bibstyle command---while reading file research.aux
-You've used 0 entries,
-            0 wiz_defined-function locations,
-            83 strings with 490 characters,
-and the built_in function-call counts, 0 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 0
-:= -- 0
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
+The style file: unsrt.bst
+Database file #1: research.bib
+You've used 1 entry,
+            1791 wiz_defined-function locations,
+            451 strings with 3663 characters,
+and the built_in function-call counts, 337 in all, are:
+= -- 35
+> -- 4
+< -- 1
++ -- 2
+- -- 1
+* -- 16
+:= -- 50
+add.period$ -- 4
+call.type$ -- 1
+change.case$ -- 1
 chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 0
-format.name$ -- 0
-if$ -- 0
+cite$ -- 1
+duplicate$ -- 20
+empty$ -- 36
+format.name$ -- 1
+if$ -- 82
 int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 0
-num.names$ -- 0
-pop$ -- 0
-preamble$ -- 0
+int.to.str$ -- 1
+missing$ -- 1
+newline$ -- 8
+num.names$ -- 1
+pop$ -- 6
+preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 0
+skip$ -- 11
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
-text.length$ -- 0
+substring$ -- 24
+swap$ -- 8
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 0
-width$ -- 0
-write$ -- 0
-(There were 3 error messages)
+while$ -- 4
+width$ -- 2
+write$ -- 14

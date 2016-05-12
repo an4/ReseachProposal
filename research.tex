@@ -25,6 +25,14 @@
 
 a six-page (maximum) Case for Support: an account of the motivation for the work, the approach being taken, and a breakdown of the work to be carried out (often in terms of "workpackages"), plus a management plan (how will the project be managed such that it delivers what you have promised to do) and any other information that usefully describes the nature of the project being proposed)
 
+\subsection*{Background}
+Side-Channel Attacks (SCA) are an important class of cryptanalytic techniques which target unintentional information leakage in order to disclose private data. In general, Side-Channel attacks monitor a device performing an interesting operation and try to find a correlation between the side-channel information and the internal state of the processing device which is related to the secret parameters involved in the computation. Side-channel information can be obtained by monitoring variations in the execution time (\textit{Timing Attacks}), the power consumption (\textit{Power Analysis}), the electro-magnetic emission (\textit{Electro-magnetic Analysis - EMA}), or the state of the cache memory (\textit{Cache Attacks}) \cite{standaert2010introduction}. The goal of an attacker in side-channel attacks is to either recover the secret parameters involved in the computation by targeting faults in the implementation of some cryptographic algorithm, or disclose private information about a user, such as location or browsing history.
+
+%introduce browser attacks
+
+\bibliographystyle{unsrt}
+\bibliography{research}
+
 \newpage
 \section*{Budget}
 
@@ -44,10 +52,5 @@ a one-page (maximum) Impact Statement: a description of how you intend to ensure
 \section*{Workplan}
 
 and also a one-page (maximum) Workplan:typically a GANTT chart or similar diagram indicating the order in which workpackages are carried out)
-
-
-
-\bibliographystyle{ieeetr}
-\bibliography{research.bib}
 
 \end{document}

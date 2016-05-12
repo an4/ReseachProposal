@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.2.27)  11 MAY 2016 14:20
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.2.27)  12 MAY 2016 13:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -132,7 +132,9 @@ LaTeX Warning: No \author given.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 24.
-[1
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 28.
+(./research.bbl) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 
@@ -141,23 +143,23 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2] [3] [4] (./research.bbl) [5] (./research.aux) ) 
+[2] [3] [4] [5] (./research.aux) ) 
 Here is how much of TeX's memory you used:
- 928 strings out of 493304
- 12330 string characters out of 6139871
- 69746 words of memory out of 5000000
- 4427 multiletter control sequences out of 15000+600000
- 12486 words of font info for 32 fonts, out of 8000000 for 9000
+ 935 strings out of 493304
+ 12424 string characters out of 6139871
+ 71749 words of memory out of 5000000
+ 4431 multiletter control sequences out of 15000+600000
+ 15796 words of font info for 36 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 23i,10n,43p,404b,191s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-di
-st/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/urw/t
-imes/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb
->
-Output written on research.pdf (5 pages, 29027 bytes).
+ 23i,10n,43p,1082b,191s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvip
+s/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on research.pdf (5 pages, 41278 bytes).
 PDF statistics:
- 29 PDF objects out of 1000 (max. 8388607)
- 19 compressed objects within 1 object stream
+ 33 PDF objects out of 1000 (max. 8388607)
+ 22 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
