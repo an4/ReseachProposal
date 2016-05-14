@@ -37,16 +37,44 @@ Vulnerabilities in browser software emerge every day, but they also disappear wi
 In 2000, Felten and Schneider\cite{felten2000timing} presented the first browser side-channel attack, where they were able to determine if the user has previously visited a web page. A few years later, Bortz et al.\cite{bortz2007exposing} used a similar technique to determine the size of a hidden file, which can disclose private information about the user. Their work was extended by Van Goethem et al.\cite{van2015clock}, who used newer web development technologies in order to determine the size of a remote origin resource. Browser attacks are not only used to determine how much information a user has access to, in 2015 Jia et al.\cite{jia2015know} demonstrated that it is possible to determine a user's location. Additionally, Oren et al.\cite{oren2015spy} showed that it is possible to disclose a user's current browsing activity by analysing the state of their browser's cache memory.
 
 \subsection*{Motivation}
+
+The aforementioned papers present various techniques for disclosing private information about users, by either measuring the amount of data the users have access to or simply checking what web pages are in their browser's cache memory. Additionally, most of the papers present real world scenarios where the attacks can be used to de-anonymize a user; however, the attacks are presented from the perspective of a malicious user who is trying to gain access to private data.
+
+The world of browser attacks is rapidly changing with new vulnerabilities being discovered and patched every week. In general, adversaries have a limited time frame in which they can exploit the newly found vulnerabilities. 
+
+The fast-paced world of browser attacks and the lack of real world applications of side-channel attacks motivated us to focus on the following research themes:
+\begin{enumerate}
+\item Discover new vulnerabilities in newer browser technologies. Analyse how newer web development technologies improve existing attacks and discover new vulnerabilities.
+%expand
+\item Find new applications for existing browser attacks. Explore how side-channel information obtained through browser attacks can be used to disclose a user's list of acquaintances on social networking websites.
+\end{enumerate}
+
+\subsection*{Project Objectives}
+
+The aims of this research are to detect new vulnerabilities in existing and newly released web development technologies, and to discover new real world applications for existing browser attacks which can ease the work of security agencies. More specifically, we will focus on the following objectives:
+\begin{enumerate}
+\item To detect new vulnerabilities in newly released browser software and compare them to existing side-channel attacks in the browser.
+\item To research how existing side-channel attacks can be used to disclose a user's network.
+\item To build a model which disclosed a user's network using data provided by security companies.
+\item To extend the previous model to work on real world social networks.
+\end{enumerate}
+
+\subsection*{Workpackages}
+\subsubsection*{Workpackage 1: Discover new vulnerabilities in web browsers}
+Principal research objective:
+
+Principal deliverables:
+
+\subsubsection*{Workpackage 2: Disclosing a user's network}
+Principal search objectives:
+
 % they affect lots of users
 % how to use them
 
 
-
-The aforementioned papers, present various techniques for disclosing private information about users and present several real life scenarios where these attacks can be used; however, none of them explore how the methods can be used to de-anonymize a user.
 % example for security agency
 % motivate why you want to research ways about disclosing a user's private network
 
-With the exception of the attack described by Oren et al.\cite{oren2015spy}
 
 
 
