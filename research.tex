@@ -38,16 +38,12 @@ In 2000, Felten and Schneider\cite{felten2000timing} presented the first browser
 
 \subsection*{Motivation}
 
-The aforementioned papers present various techniques for disclosing private information about users, by either measuring the amount of data the users have access to or simply checking what web pages are in their browser's cache memory. Additionally, most of the papers present real world scenarios where the attacks can be used to de-anonymize a user; however, the attacks are presented from the perspective of a malicious user who is trying to gain access to private data.
+The aforementioned papers present various techniques for disclosing private information about users, by either measuring the amount of data the users have access to, or simply determining what pages they previously accessed by checking the state of their browser's cache memory. Additionally, most of the papers present real world scenarios where the attacks can be used to de-anonymize a user; however, the attacks are presented from the perspective of a malicious user who is trying to gain access to private data.
 
-The world of browser attacks is rapidly changing with new vulnerabilities being discovered and patched every week. In general, adversaries have a limited time frame in which they can exploit the newly found vulnerabilities. 
+The world of browser attacks is rapidly changing with new vulnerabilities being discovered and patched every week. In general, adversaries have a limited time frame in which they can exploit the newly found vulnerabilities. In general, vulnerabilities found in the browser software are fixed within weeks; however, sometimes the measures proposed for stopping the attacks will bring severe performance penalties and browser vendors refuse to include them in their software, or a countermeasure is yet to be found. This is the case of the attacks discovered by Felten et al.\cite{felten2000timing} and Bortz et al.\cite{bortz2007exposing}, which have been around for years. 
 
-The fast-paced world of browser attacks and the lack of real world applications of side-channel attacks motivated us to focus on the following research themes:
-\begin{enumerate}
-\item Discover new vulnerabilities in newer browser technologies. Analyse how newer web development technologies improve existing attacks and discover new vulnerabilities.
-%expand
-\item Find new applications for existing browser attacks. Explore how side-channel information obtained through browser attacks can be used to disclose a user's list of acquaintances on social networking websites.
-\end{enumerate}
+This motivated us to investigate new applications for this particular kind of browser attacks. More specifically, we will focus on exploring how side-channel information can be used to obtain a user's list of connections on social networking websites. 
+
 
 \subsection*{Project Objectives}
 
