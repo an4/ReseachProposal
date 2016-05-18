@@ -63,15 +63,47 @@ Co-Investigator: Dr. Roger Taylor (RT), University of Bristol - Law thing - data
 Post-doctoral Research Associate (PDRA1)\\
 Post-doctoral Research Associate (PDRA2)\\
 
-\subsubsection*{Workpackage 1: A preliminary analysis of published attack vectors}
+\subsubsection*{Workpackage 1 (WP1) : A preliminary analysis of published attack vectors}
+Research leader: Prof. Freddie Mercury, University of Bristol
+
+Principle research objective:
+\begin{quote}
+	To review the existing literature on side-channel attacks in the browser and determine the efficiency of the attack vectors.
+\end{quote}
+
+Principle deliverables:
+\begin{enumerate}
+\item Provide implementations for different browser attacks, optimised to work on the most recent versions of browser software.
+\end{enumerate}
+
+The goal of this package is to review existing attack vectors and analyse their efficiency in state-of-the-art browser software. Browser attacks are a particular kind of side-channel attacks, where most vulnerabilities appear and disappear within weeks. This gives adversaries a limited time frame in which they can exploit potential vulnerabilities. There are very few attacks which have been around for years, like \cite{felten2000timing} and \cite{bortz2007exposing}, because there is no known countermeasure which will not significantly affect the performance of the browser software.
+
+Initially, this work package will focus on selecting a series of side-channel attacks in the web browser to be reviewed. In order to determine a user's network in later work packages we need to select a specific set of side-channel attacks in web browsers. The criteria for selecting the papers is that they can be applied to real world scenarios where we are trying to determine the size of a remote file. Such attacks have been around for years and there are lots of resources available. The role of the researcher working on this work package is to implement the attacks and them to work with current versions of the software. 
+
+This work package is to be completed by a PhD student, under the supervision of the Principal Investigator. The attack vectors which will be reviewed are to be determined by the PhD student together with the supervisor.
+
+% why successful
+
+% WP2 web application for social media, being able to determine facts about a user
+\subsubsection*{Workpackage 2 (WP2) : Build model for determining a user's network}
+Research leader:
+
+%rephrase
+Principle research objective:
+\begin{quote}
+	To build a model for determining information about a user.
+\end{quote}
+
+Principle deliverables:
+\begin{enumerate}
+\item Provide a web application which can be used to determine a user's list of connections on social media web sites.
+\item A collection of tests for analysing the performance of the web application.
+\end{enumerate}
+
+This work package builds on the work from WP1, where we determine a set of suitable methods for estimating the size of a remote file. The goal of this work package is to build a web application which determines the 
 
 
-% they affect lots of users
-% how to use them
 
-
-% example for security agency
-% motivate why you want to research ways about disclosing a user's private network
 
 
 
@@ -88,6 +120,24 @@ Post-doctoral Research Associate (PDRA2)\\
 \section*{Budget}
 
 a one-page (maximum) Budget: a table/spreadsheet of expenditure
+
+
+\begin{center}
+\begin{tabular}{|l|l|}
+\hline
+Item & Cost for 3.5 years (\textsterling) \\\hline
+PI & 350,000 \\\hline
+CI & 87,500 \\\hline
+PDRA & 350,000 \\\hline
+PhD student & 100,000 \\\hline
+Equipment & 3,000 \\\hline
+Cloud computing resources & 27,452 \\\hline
+International travel costs & 28,000 \\\hline
+National travel costs & 10,500 \\\hline
+Workshops & 1,800 \\\hline
+\textbf{Total cost} & 958,252 \\\hline
+\end{tabular}
+\end{center}
 
 \newpage
 \section*{Justification For Resources}
