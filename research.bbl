@@ -43,4 +43,14 @@ Yossef Oren, Vasileios~P Kemerlis, Simha Sethumadhavan, and Angelos~D
 \newblock The spy in the sandbox--practical cache attacks in javascript.
 \newblock {\em arXiv preprint arXiv:1502.07373}, 2015.
 
+\bibitem{semanticsearch}
+Semantics scholar.
+\newblock \url{https://www.semanticscholar.org/}.
+\newblock [Accessed: 2016-05-18].
+
+\bibitem{googlescholar}
+Google scholar.
+\newblock \url{https://scholar.google.co.uk/}.
+\newblock [Accessed: 2016-05-18].
+
 \end{thebibliography}

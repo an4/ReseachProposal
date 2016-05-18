@@ -7,6 +7,8 @@
 \fancyhf{}
 \rhead{\thepage}
 
+\usepackage{hyperref}
+
 \usepackage{times}
 
 % add paragraph breaks
@@ -49,22 +51,26 @@ This motivated us to investigate new applications for this particular kind of br
 
 The aim of this research is to provide theory, tools and techniques for disclosing a user's list of connections on social media platforms. More specifically, we will focus on the following objectives:
 \begin{enumerate}
-\item To analyse all the existing browser attacks which can be used to determine if two users are friends and determine which technique performs the best.
+\item To analyse all known browser attacks which can be used to determine if two users are friends and determine which technique performs the best.
 \item To build a basic model which determines a user's connections on social media websites. 
 \item To test the model on data provided by security companies. This will allow us to improve the algorithms.
-\item To test the model in the real world. We will try to determine a user's list of connections on real social medial website.
+\item To test the model in the real world. We will to determine a user's list of connections on real social medial website.
 \end{enumerate}
 
+%serve to refine the algorithm
+
 \subsection*{Programme and Methodology}
-Personnel listed in the program of work are as follows:\\
-Principal Investigator: Prof. Freddie Mercury (FM), University of Bristol\\
-Co-Investigator: Dr. Brian May (BM), University of Bristol\\
-Co-Investigator: Dr. Roger Taylor (RT), University of Bristol - Law thing - data \\
-Post-doctoral Research Associate (PDRA1)\\
-Post-doctoral Research Associate (PDRA2)\\
+%Personnel listed in the program of work are as follows:\\
+%Principal Investigator: Prof. Freddie Mercury (FM), University of Bristol\\
+%Co-Investigator: Dr. Brian May (BM), University of Bristol\\
+%Co-Investigator: Dr. Roger Taylor (RT), University of Bristol - Law thing - data \\
+%Post-doctoral Research Associate (PDRA1)\\
+%Post-doctoral Research Associate (PDRA2)\\
+Throughout this section we will refer to the list of a user's friends or connections on social media platforms as the \textbf{friend graph}.
+
 
 \subsubsection*{Workpackage 1 (WP1) : A preliminary analysis of published attack vectors}
-Research leader: Prof. Freddie Mercury, University of Bristol
+Research leader: Dr. Ana Dumitras, University of Bristol
 
 Principle research objective:
 \begin{quote}
@@ -78,7 +84,7 @@ Principle deliverables:
 
 The goal of this package is to review existing attack vectors and analyse their efficiency in state-of-the-art browser software. Browser attacks are a particular kind of side-channel attacks, where most vulnerabilities appear and disappear within weeks. This gives adversaries a limited time frame in which they can exploit potential vulnerabilities. There are very few attacks which have been around for years, like \cite{felten2000timing} and \cite{bortz2007exposing}, because there is no known countermeasure which will not significantly affect the performance of the browser software.
 
-Initially, this work package will focus on selecting a series of side-channel attacks in the web browser to be reviewed. In order to determine a user's network in later work packages we need to select a specific set of side-channel attacks in web browsers. The criteria for selecting the papers is that they can be applied to real world scenarios where we are trying to determine the size of a remote file. Such attacks have been around for years and there are lots of resources available. The role of the researcher working on this work package is to implement the attacks and them to work with current versions of the software. 
+Initially, this work package will focus on selecting a series of side-channel attacks in the web browser to be reviewed. We will use Semantics Scholar \cite{semanticsearch} and Google Scholar\cite{googlescholar} to identify the set of papers to be reviewed. In order to determine the friend graph in later WP3 and WP4 we need to select a specific set of side-channel attacks in web browsers. The criteria for selecting the papers is that they can be applied to real world scenarios where we are trying to determine the size of a remote file. Such attacks have been around for years and there are lots of resources available. The role of the researcher working on this work package is to implement the attacks and alter them to work with current versions of the browser software. 
 
 This work package is to be completed by a PhD student, under the supervision of the Principal Investigator. The attack vectors which will be reviewed are to be determined by the PhD student together with the supervisor.
 
