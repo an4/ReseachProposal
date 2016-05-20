@@ -9,6 +9,11 @@
 
 \usepackage{hyperref}
 
+\usepackage{pdflscape}
+
+\usepackage{graphics}
+\usepackage{graphicx}
+
 \usepackage{times}
 
 % add paragraph breaks
@@ -167,31 +172,65 @@ a one-page (maximum) Budget: a table/spreadsheet of expenditure
 \begin{tabular}{|l|l|}
 \hline
 Item & Cost for 3.5 years (\textsterling) \\\hline
-PI & 132,000 \\\hline
-CI1 & 60,000 \\\hline
-CI2 & 20,000 \\\hline
+PI & 140,000 \\\hline
+CI1 & 70,000 \\\hline
+CI2 & 70,000 \\\hline
+PDRA & 350,000 \\\hline
 PhD student & 100,000 \\\hline
 Equipment & 10,240 \\\hline
 International travel costs & 52,742 \\\hline
 National travel costs & 15,366 \\\hline
 Workshops & 5,346 \\\hline
-\textbf{Total cost} & 395,694 \\\hline
+\textbf{Total cost} & 813,694 \\\hline
 \end{tabular}
 \end{center}
 
 \newpage
 \section*{Justification For Resources}
 
-a one-page (maximum) Justification For Resources: essentially a written narrative on why you need the expenditure on each line-item in your budget
+%a one-page (maximum) Justification For Resources: essentially a written narrative on why you need the expenditure on each line-item in your budget
+
+\subsection*{Directly incurred costs: staff}
+There are five members from the University of Bristol involved in this research project. The Principal-Investigator will spend will spend 20\% of their time working on this project. Additionally, we will need two Co-Investigators, each will contribute 10\% of their time. The first CI will have a background in web development, while the second CI has experience in Data Protection and is going to provide support during the development of WP2, WP3 and WP4. The main research cost is the time of the PDRA and the PhD student.
+
+\subsection*{Directly incurred costs: consumables}
+\textsterling 4,000 is requested for PCs for the PDRA and the PhD student.
+
+\textsterling 4,740 will be used to acquire additional equipment needed for implementing and testing platform specific attacks, such as mobile phones and tablets.
+
+\textsterling 1,500 is going to be used to acquire any software licenses needed.
+
+\subsection*{Directly incurred costs: travel and subsistence}
+Budget has been allocated for each member to travel to several relevant conferences, such as COSADE: Constructive Side-Channel Analysis and Secure Design.
+
+Additionally, \textsterling 15,366 are going to be used for travelling in order to collaborate with other academics or members from the industry.
+
+\subsection*{Directly incurred costs: workshops}
+We will run 5 workshops over the 3.5 years. \textsterling 5,346 is allocated to cover catering costs and any additional equipment needed for the workshops.
+ 
 
 \newpage
 \section*{Impact Statement}
 
-a one-page (maximum) Impact Statement: a description of how you intend to ensure that your work makes a difference in the world, rather than sitting on a shelf gathering dust)
+%a one-page (maximum) Impact Statement: a description of how you intend to ensure that your work makes a difference in the world, rather than sitting on a shelf gathering dust)
+
+The research proposal can be split into two parts: the first one which focuses on academic development by improving existing attacks, and a second part which aims to provide tools for the industry. The first part consists of WP1 and WP2, while the seconds part contains WP3 and WP4. 
+
+
 
 \newpage
+\begin{landscape}
 \section*{Workplan}
+%and also a one-page (maximum) Workplan:typically a GANTT chart or similar diagram indicating the order in which workpackages are carried out)
 
-and also a one-page (maximum) Workplan:typically a GANTT chart or similar diagram indicating the order in which workpackages are carried out)
+\begin{figure}[h]
+\centering
+\includegraphics[width=25cm]{gantt.png}
+\end{figure}
 
+\subsection*{}
+
+We are going to start with WP1 A, which requires an analysis of published attack vectors. After gathering enough data we can start work on WP1 B and for some time we are going to alternate the two tasks. By the end of WP1 we are going to focus entirely on the implementation part described in WP B. After completing WP1 we can start working on WP2. Once WP2 is completed, DSTL is going to provide the data needed for WP3 A and with the resources obtained from WP2 we can start working on the current work package. The outcome from WP3 A is going to be used in WP4. WP3 B is going to start at the same time as WP1. We are going to have two workshops in the first two quarters, and then one workshop during the last quarter of the next three years.
+
+\end{landscape}
 \end{document}
