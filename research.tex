@@ -61,39 +61,36 @@ The aim of this research is to provide theory, tools and techniques for disclosi
 \end{enumerate}
 
 \subsection*{Programme and Methodology}
-%Personnel listed in the program of work are as follows:\\
-%Principal Investigator: Prof. Freddie Mercury (FM), University of Bristol\\
-%Co-Investigator: Dr. Brian May (BM), University of Bristol\\
-%Co-Investigator: Dr. Roger Taylor (RT), University of Bristol - Law thing - data \\
-%Post-doctoral Research Associate (PDRA1)\\
-%Post-doctoral Research Associate (PDRA2)\\
+
 Throughout this section we will refer to the list of a user's friends or connections on social media platforms as the \textbf{friend graph}.
 
+Personnel listed in the program of work are as follows:
+Principal Investigator: Dr. Ana Dumitras, University of Bristol
+Co-Investigator: Dr. Sergey Brin, University of Bristol
 
 \subsubsection*{Workpackage 1 (WP1) : A preliminary analysis of published attack vectors}
 Research leader: Dr. Ana Dumitras, University of Bristol
 
 Principle research objective:
 \begin{quote}
-	To review the existing literature on side-channel attacks in the browser and determine the efficiency of the attack vectors.
+	To review the existing literature on side-channel attacks in the browser and determine the efficiency of the attack vectors. Additionally we will implement a set of chosen browser attack which will later be used to determine the friend graph.
 \end{quote}
 
 Principle deliverables:
 \begin{enumerate}
-\item Provide implementations for different browser attacks, optimised to work on the most recent versions of browser software.
+\item Review existing literature on the most important side-channel attacks in the browser.
+\item Provide implementations for the selected browser attacks, optimised to work on the most recent versions of browser software.
 \end{enumerate}
 
-The goal of this package is to review existing attack vectors and analyse their efficiency in state-of-the-art browser software. Browser attacks are a particular kind of side-channel attacks, where most vulnerabilities appear and disappear within weeks. This gives adversaries a limited time frame in which they can exploit potential vulnerabilities. There are very few attacks which have been around for years, like \cite{felten2000timing} and \cite{bortz2007exposing}, because there is no known countermeasure which will not significantly affect the performance of the browser software.
+The goal of this package is to review existing attack vectors and analyse their efficiency in state-of-the-art browser software. Initially, this work package will focus on selecting a series of side-channel attacks in the web browser to be reviewed. We will use Semantics Scholar \cite{semanticsearch} and Google Scholar\cite{googlescholar} to identify the set of papers to be reviewed. In order to determine the friend graph in later WP3 and WP4 we need to select a specific set of side-channel attacks in web browsers. The criteria for selecting the papers is that they can be applied to real world scenarios where we are trying to determine the size of a remote file. Such attacks have been around for years and there are lots of resources available. 
 
-Initially, this work package will focus on selecting a series of side-channel attacks in the web browser to be reviewed. We will use Semantics Scholar \cite{semanticsearch} and Google Scholar\cite{googlescholar} to identify the set of papers to be reviewed. In order to determine the friend graph in later WP3 and WP4 we need to select a specific set of side-channel attacks in web browsers. The criteria for selecting the papers is that they can be applied to real world scenarios where we are trying to determine the size of a remote file. Such attacks have been around for years and there are lots of resources available. The role of the researcher working on this work package is to implement the attacks and alter them to work with current versions of the browser software. 
+The second task in this work package is to implement some of the selected browser attacks. Before implementing the attacks, we are going to theoretically determine if the attacks are still feasible. Even if the attacks are still possible, changes in the browser software will require additional work in order to run them on current versions of the browser software. The outcome of this work package is a series of browser attacks which work in the most popular browsers, such as Chrome, Firefox, Safari and IE. 
 
-This work package is to be completed by a PhD student, under the supervision of the Principal Investigator. The attack vectors which will be reviewed are to be determined by the PhD student together with the supervisor.
-
-% why successful
+This work package is to be completed by a PhD student, under the supervision of the Principal Investigator. The PhD student is going to be supported by the Co-Investigator, who has experience in web development. The attack vectors which will be reviewed are to be determined by the PhD student together with the supervisor. The role of the researcher working on this work package is to select the set of papers about browser attacks, implement the attacks and alter them to work with current versions of the browser software. 
 
 % WP2 web application for social media, being able to determine facts about a user
 \subsubsection*{Workpackage 2 (WP2) : Build a model for answering yes-no questions about the user.}
-Research leader: Dr. Brian May, University of Bristol
+Research leader: Dr. Ana Dumitras, University of Bristol
 
 %rephrase
 Principle research objective:
@@ -114,7 +111,7 @@ The work is to be carried by a PhD student, under the supervision of the co-Inve
 For ethical reasons we are not going to use data from actual users, but we are going to set up several accounts on the most popular social networks, like Facebook, Twitter or LinkedIn, and test our application on those accounts. These accounts will also be used for testing since we already know what answers to expect from the application.
 
 \subsubsection*{Workpackage 3 (WP3) : Build model for determining the friend graph}
-Research leader: Dr. Brian May, University of Bristol
+Research leader: Dr. Ana Dumitras, University of Bristol
 
 %rephrase
 Principle research objective:
@@ -135,7 +132,7 @@ In general, DSTL prefers work to be conducted by external suppliers. They are in
 The main goal of this work package is to have a web application which automatically displays the friend graph when given a link to a user's profile on DSTL's social network platform. The work is to be completed by a PhD student, supervised by the PI. Additionally, DSTL is going to offer support by providing us with access to the internal social media platform. The success of this work package is measured in how accurately we can determine the friend graph on the given social network.
 
 \subsubsection*{Workpackage 4 (WP4) : Test the model on real world social networks}
-Research leader: Dr. Brian May, University of Bristol
+Research leader: Dr. Ana Dumitras, University of Bristol
 
 %rephrase
 Principle research objective:
@@ -150,11 +147,12 @@ Principle deliverables:
 
 After the successful completion of WP3, we are going to focus on extending the web application to work on any social media platform. DSTL are interested in using our web application. The aim of this work package is to disclose the friend graph of a user of any social media website. This is going to be part of an ongoing project by DSTL which focuses on de-anonymising social network users who might pose a threat to national security.
 
-The work will be completed by a PhD student, supervised by the PI. Since DSTL will be the main user of this application, they will provide additional support such as offering testing data and they will provide feedback during the implementation stage. Due to ethical reasons we are not allowed to test the application on random users. Dr. Roger Taylor from the Department of Law at the University of Bristol, who is specialized in Data Protection, is going to supervise our work during the development of this work package.
+The work will be completed by a PhD student, supervised by the PI. Since DSTL will be the main user of this application, they will provide additional support such as offering testing data and they will provide feedback during the implementation stage. Due to ethical reasons we are not allowed to test the application on random users. Dr. Roger Taylor from the Department of Law at the University of Bristol, who is specialized in Data Protection, is going to support our work during the development of this work package and provide any resources information needed for working with user data.
 
+\subsection*{Academic Impact}
 
-% maybe par that they are still possible, affect lots of users (basically summarize the previous page and say what I want to do in my research) 
-% and say that none of them looked into the practical side, they merely researched new methods for ethical reasons
+\subsection*{National Impact}
+
 
 \bibliographystyle{unsrt}
 \bibliography{research}
@@ -169,16 +167,15 @@ a one-page (maximum) Budget: a table/spreadsheet of expenditure
 \begin{tabular}{|l|l|}
 \hline
 Item & Cost for 3.5 years (\textsterling) \\\hline
-PI & 350,000 \\\hline
-CI & 87,500 \\\hline
-PDRA & 350,000 \\\hline
+PI & 132,000 \\\hline
+CI1 & 60,000 \\\hline
+CI2 & 20,000 \\\hline
 PhD student & 100,000 \\\hline
-Equipment & 3,000 \\\hline
-Cloud computing resources & 27,452 \\\hline
-International travel costs & 28,000 \\\hline
-National travel costs & 10,500 \\\hline
-Workshops & 1,800 \\\hline
-\textbf{Total cost} & 958,252 \\\hline
+Equipment & 10,240 \\\hline
+International travel costs & 52,742 \\\hline
+National travel costs & 15,366 \\\hline
+Workshops & 5,346 \\\hline
+\textbf{Total cost} & 395,694 \\\hline
 \end{tabular}
 \end{center}
 
