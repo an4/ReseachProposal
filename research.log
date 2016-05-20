@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.5.17)  20 MAY 2016 04:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.5.17)  20 MAY 2016 12:38
 entering extended mode
 **./research.tex
 (research.tex
@@ -336,7 +336,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [2]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 70.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 71.
  [3] [4] (research.bbl [5]
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 48.
 
@@ -348,47 +348,47 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 )
 [6]
 LaTeX Font Info:    Font shape `OT1/ptm/m/ui' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/m/it' tried instead on input line 174.
- [7] [8] [9] <gantt.png, id=101, 1239.12938pt x 191.21437pt>
+(Font)              Font shape `OT1/ptm/m/it' tried instead on input line 172.
+ [7] [8] [9] <gantt.png, id=103, 1239.12938pt x 191.21437pt>
 File: gantt.png Graphic file (type png)
 
 <use gantt.png>
-Package pdftex.def Info: gantt.png used on input line 227.
+Package pdftex.def Info: gantt.png used on input line 226.
 (pdftex.def)             Requested size: 711.3189pt x 109.76358pt.
 
-Overfull \hbox (8.53581pt too wide) in paragraph at lines 227--228
+Overfull \hbox (8.53581pt too wide) in paragraph at lines 226--227
  [][] 
  []
 
 [10
 
  <./gantt.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 235.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 235.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 234.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 234.
  (research.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 235.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 235.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 234.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 234.
 Package rerunfilecheck Info: File `research.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 235.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 234.
  ) 
 Here is how much of TeX's memory you used:
- 5693 strings out of 493634
- 84791 string characters out of 3136055
+ 5695 strings out of 493634
+ 84805 string characters out of 3136055
  172445 words of memory out of 3000000
  8983 multiletter control sequences out of 15000+200000
  18553 words of font info for 42 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 33i,11n,43p,1287b,426s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 33i,10n,43p,1287b,428s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Ana/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.e
 nc}<C:/Users/Ana/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/courier/ucrr
 8a.pfb><C:/Users/Ana/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/ut
 mb8a.pfb><C:/Users/Ana/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/
 utmr8a.pfb><C:/Users/Ana/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on research.pdf (10 pages, 109390 bytes).
+Output written on research.pdf (10 pages, 109896 bytes).
 PDF statistics:
- 136 PDF objects out of 1000 (max. 8388607)
- 54 named destinations out of 1000 (max. 500000)
+ 139 PDF objects out of 1000 (max. 8388607)
+ 56 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
